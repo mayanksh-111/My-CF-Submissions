@@ -56,10 +56,7 @@ int32_t main(){
         }
         int pairs = 0;
         for(int i : x){
-            // int num = i;
             int ulta = INT32_MAX - i;
-            // int ind = 1;
-            // cout << ulta << endl;
             if(mp[ulta] != 0) pairs += min(mp[ulta],mp[i]);
         }
         ans += n-pairs;
