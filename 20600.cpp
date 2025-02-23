@@ -25,7 +25,6 @@ int32_t main(){
         int t3 = c-b;
         int count = 1;
         count += (t1 == t2) + (t2 == t3) + (t1 == t3);
-        // if(count == 0) count = 1;
         if(count == 4) count--;
         cout << count << endl;
     }
