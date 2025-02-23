@@ -26,9 +26,6 @@ int32_t main(){
         for(int i : x){
             cnt[i]++;
         }
-        // for(auto &it : cnt){
-        //     cout << it.first << "->" << it.second << endl;
-        // }
         set<int> temp;
         for(int i : x) temp.insert(i);
         int count = 0;
